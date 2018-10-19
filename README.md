@@ -2,20 +2,28 @@ Node log
 
 Getting started:
 
+Install nolo
+
 ```
-const Logger = require('node-log');
+npm i nolo
+```
+
+and use
+
+```
+const Logger = require('nolo');
 
 const logger = new Logger();
 ```
 
-1. Using console logs:
+- Using console logs:
 
 ```
     logger
       .log(Level.error, 'Oops, error!');
 ```
 
-2. Using log file:
+- Using log file:
 
 ```
 logger
