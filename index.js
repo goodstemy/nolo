@@ -45,7 +45,7 @@ class Logger {
 
 	_log(logLevel, logString) {
 		if (typeof this.transport === 'undefined') {
-      console.log(`${logLevel}${logString}`);
+      console.log(`${logLevel}${logString}\x1b[0m`);
 		} else {
       this.transport.log(logLevel, logString);
 		}

@@ -46,4 +46,4 @@ logger
 
 Output:
 
-![nolo output](https://image.ibb.co/ioMirL/2018-10-21-13-42-27.png)
+![nolo output](https://image.ibb.co/d4W55f/2018-10-21-13-52-46.png)
